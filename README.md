@@ -20,7 +20,7 @@ Criando a nossa base de dados no mongodb dentro do Docker
 ```docker run --name mongodb -p 27017:27017 -d mongo```
 
 O comando acima irá criar a base de dados ```mongodb``` utilizando a imagem ```mongo``` baixada. A porta padrão é 27017.
-Na parte onde definimos ```-p``` significa que a primeira porta é nosso endereço local da máquina e a segunda é a porta dentro do docker para se comuncar como mongosb.
+Na parte onde definimos ```-p``` significa que a primeira porta é nosso endereço local da máquina e a segunda é a porta dentro do docker para se comuncar com o mongosb.
 
 Após criar a base, execute o comando abaixo. Para verificar se a base foi levantada.  
 
