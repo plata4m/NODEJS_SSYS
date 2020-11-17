@@ -26,7 +26,7 @@ Após criar a base, execute o comando abaixo. Para verificar se a base foi levan
 
 ```docker ps -a```
 
-Por fim, basta ridar a aplicação
+Por fim, basta rodar a aplicação
 
 ```npm run dev```
 
