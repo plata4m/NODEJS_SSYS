@@ -6,5 +6,6 @@ Rest API desenvolvida com NodeJS, express e mongodb. O mongodb roda dentro do do
 - NodeJS
 
 **Configurando a aplicação para rodar**
+
 Após instalar o NodeJS e o Docker, adicione o projeto ao VScode (é um bom editor). 
 
