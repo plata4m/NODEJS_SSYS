@@ -1,4 +1,3 @@
-const tokenValidation = require('../validation/validation');
 const mongoose = require('mongoose');
 
 const Employees = mongoose.model('Employees');
@@ -7,23 +6,13 @@ module.exports = {
     async list(req, res){
         const employee = await Employees.find();
         
-        const validateToken = tokenValidation.validateToken(req.header('token'));
-        if(validateToken.error == 0){
-            return res.json(employee);
-        }
-
-        return res.json(validateToken.message);
+        return res.json(employee);
     },
 
     async create(req, res){
         const employee = await Employees.create(req.body);
-
-        const validateToken = tokenValidation.validateToken(req.header('token'));
-        if(validateToken.error == 0){
-            return res.json(employee);
-        }
-
-        return res.json(validateToken.message);
+        
+        return res.json(employee);
     },
 
     async detail(req, res){
