@@ -2,7 +2,6 @@ const express = require('express');
 const routes = express.Router();
 
 const tokenValidation = require('./validation/validation');
-const errorController = require('./controllers/ErrorController');
 
 const EmployeesController = require('./controllers/EmployeesControlller');
 const EmployeesReportController = require('./controllers/EmployeesReportController');
@@ -28,7 +27,7 @@ routes.use(function (req, res, next) {
 
     } else {
 
-        return res.json({ error: 0, message: validateToken.message });
+        return res.json({ error: 1, message: validateToken.message });
         
     }
 
