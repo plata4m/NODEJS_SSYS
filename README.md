@@ -1,5 +1,5 @@
 ## ssys-api - SSYS Employee Manager
-Rest API desenvolvida com NodeJS, express e mongodb. O mongodb roda dentro do docker. Api simples de um crud de Emplyee com um range para salary e age. 
+Rest API desenvolvida com NodeJS, express e mongodb. O mongodb roda dentro do docker. Api simples de um crud de Employee com um range para salary e age. 
 
 **Requerimentos para executar/rodar a aplicação**
 - Docker
