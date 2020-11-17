@@ -1,5 +1,5 @@
 ## ssys-api - SSYS Employee Manager
-Rest API desenvolvida com NodeJS, express e mongodb. O mongodb roda dentro do docker. Api simples de um crud de Employee com um range para salary e age e um autenticador simples que utiliza o header para enviar o token. O token está no arquivo de autenticação dentro do projeto. Nesse caso, os testes dos serviços/endpoints foram feitos com INSOMNIA. Basta copiar o token e colar no header com o atributo token. Para acessar o conteúdo dos serviços. Caso não se autentique, retornará uma mensagem de erro, proibindo acesso ao conteudo de retorno das chamadas aos end points.
+Rest API desenvolvida com NodeJS, express e mongodb. O mongodb roda dentro do docker. Api simples de um crud de Employee com um range para salary e age e um autenticador simples que utiliza o header para enviar o token. O token está no arquivo de autenticação dentro do projeto. Nesse caso, os testes dos serviços/endpoints foram feitos com INSOMNIA, mas pode se utilizar postman ou qualquer outro de preferência. Basta copiar o token e colar no header com o atributo token. Para acessar o conteúdo dos serviços. Caso não se autentique, retornará uma mensagem de erro, proibindo acesso ao conteudo de retorno das chamadas aos end points.
 
 **Requerimentos para executar/rodar a aplicação**
 - Docker
@@ -31,4 +31,8 @@ Por fim, basta rodar a aplicação
 ```npm run dev```
 
 Pronto, o projeto já está rodando no endereço ```http://localhost:3001/api/employees/```.
+
+
+teste
+**Imagens do INSOMNIA dos testes aos end points**
 
